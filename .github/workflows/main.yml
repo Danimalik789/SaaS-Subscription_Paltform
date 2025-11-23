@@ -6,6 +6,10 @@ on:
       - staging
       - main
 
+defaults:
+  run:
+    working-directory: backend
+
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
